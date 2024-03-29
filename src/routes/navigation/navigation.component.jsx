@@ -11,9 +11,12 @@ export const Navigation = () => {
         <Link className="logo-container" to="/">
           <CrwnLogo className="logo" />
         </Link>
-        <div className="links-container">
-          <Link className="nav-links-container" to="/shop">
+        <div className="nav-links-container">
+          <Link className="nav-links" to="/shop">
             SHOP
+          </Link>
+          <Link className="nav-link" to="/sign-in">
+            SIGN-IN
           </Link>
         </div>
       </div>
